@@ -1,0 +1,49 @@
+.show-dialog {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
+.show-btn,
+.hide-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: blueviolet;
+  cursor: pointer;
+  color: #fff;
+}
+
+.dialog {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dialog__inner {
+  width: 300px;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.dialog__inner p {
+  margin: 10px 0;
+}

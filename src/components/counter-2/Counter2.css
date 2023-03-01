@@ -1,0 +1,20 @@
+.counter2 {
+  margin: 100px 0;
+}
+
+.counter2__text {
+  text-align: center;
+}
+
+.counter2__btns {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.counter2__btns button {
+  padding: 10px 20px;
+  cursor: pointer;
+}

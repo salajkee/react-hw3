@@ -1,0 +1,17 @@
+.show-hide {
+  margin: 100px 0;
+}
+
+.show-hide button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.show-hide label {
+  margin-top: 20px;
+  display: block;
+}
+
+.show-hide label span {
+  display: block;
+}

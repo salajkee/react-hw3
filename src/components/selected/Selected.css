@@ -1,0 +1,10 @@
+.selected span {
+  font-size: 20px;
+}
+
+.selected select {
+  display: block;
+  margin-top: 20px;
+  width: 200px;
+  font-size: 20px;
+}
